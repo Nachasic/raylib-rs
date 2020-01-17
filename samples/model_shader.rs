@@ -16,7 +16,7 @@ fn main() {
         45.0                          // FOV
     );
 
-    rl.set_camera_mode(&camera, CameraMode::CAMERA_FREE);
+    rl.set_camera_mode(&camera, CameraMode::CAMERA_FIRST_PERSON);
     rl.set_target_fps(60);
 
     // Load shader
